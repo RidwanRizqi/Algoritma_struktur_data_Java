@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b572077d-41ba-4cd1-a24d-e287df630839" name="Changes" comment="double linked list">
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DLLMainRidwan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DLLRidwan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DataAntrian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1NodeRidwan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLMainRidwan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLRidwan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DataFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2NodeRidwan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsMainRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsMainRidwan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsRidwan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +45,54 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Soal1DLLMainRidwan">
+    <configuration name="DoubleLinkedListsMainRidwan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doublelinkedlists.DoubleLinkedListsMainRidwan" />
+      <module name="Double_linked_list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doublelinkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Soal1DLLMainRidwan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doublelinkedlists.Soal1DLLMainRidwan" />
+      <module name="Double_linked_list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doublelinkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Soal2DLLMainRidwan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doublelinkedlists.Soal2DLLMainRidwan" />
+      <module name="Double_linked_list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doublelinkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Soal1DLLMainRidwan" />
+        <item itemvalue="Application.Soal2DLLMainRidwan" />
+        <item itemvalue="Application.DoubleLinkedListsMainRidwan" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652833552049</updated>
       <workItem from="1652833554926" duration="319000" />
+      <workItem from="1652915283634" duration="13825000" />
     </task>
     <task id="LOCAL-00001" summary="double linked list">
       <created>1652833629131</created>
@@ -67,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652835412139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="double linked list">
+      <created>1652837500828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652837500828</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
