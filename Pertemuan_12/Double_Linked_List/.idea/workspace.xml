@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b572077d-41ba-4cd1-a24d-e287df630839" name="Changes" comment="double linked list">
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DLLMainRidwan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DLLRidwan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1DataAntrian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal1NodeRidwan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLMainRidwan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLRidwan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DataFilm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2NodeRidwan.java" afterDir="false" />
+    <list default="true" id="b572077d-41ba-4cd1-a24d-e287df630839" name="Changes" comment="double linked list final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsMainRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsMainRidwan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/DoubleLinkedListsRidwan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Kuliah/Semester 2/Praktikum Algoritma Dan Struktur Data/Pertemuan_11/StrukturData"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Soal1DLLMainRidwan">
     <configuration name="DoubleLinkedListsMainRidwan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doublelinkedlists.DoubleLinkedListsMainRidwan" />
@@ -102,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652833552049</updated>
       <workItem from="1652833554926" duration="319000" />
-      <workItem from="1652915283634" duration="13825000" />
+      <workItem from="1652915283634" duration="14670000" />
+      <workItem from="1653697358813" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="double linked list">
       <created>1652833629131</created>
@@ -132,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652837500828</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="double linked list final">
+      <created>1652932719660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652932719660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="double linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="double linked list" />
+    <MESSAGE value="double linked list final" />
+    <option name="LAST_COMMIT_MESSAGE" value="double linked list final" />
   </component>
 </project>
