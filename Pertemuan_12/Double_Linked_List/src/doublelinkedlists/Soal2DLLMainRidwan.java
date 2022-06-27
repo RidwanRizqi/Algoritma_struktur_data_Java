@@ -78,7 +78,7 @@ public class Soal2DLLMainRidwan {
                     DLL.searchID(ID);
                 }
                 case 9 -> {
-                    DLL.sortDescRating();
+//                    DLL.sortDescRating();
                 }
                 case 10 -> {
                     System.out.println("Program akan ditutup");

@@ -1,5 +1,3 @@
-import org.w3c.dom.Node;
-
 public class BinaryTreeRidwan {
     NodeRidwan root;
 
@@ -10,32 +8,55 @@ public class BinaryTreeRidwan {
         return root == null;
     }
 
-    void add(int data) {
+    // Modifikasi soal nomor 1 add rekursif
+    void add(int data, NodeRidwan current) {
         if (isEmpty()) {
             root = new NodeRidwan(data);
         } else {
-            NodeRidwan current = root;
-            while (true) {
-                if (data < current.data) {
-                    if (current.left != null) {
-                        current = current.left;
-                    } else {
-                        current.left = new NodeRidwan(data);
-                        break;
-                    }
-                } else if (data > current.data) {
-                    if (current.right != null) {
-                        current = current.right;
-                    } else {
-                        current.right = new NodeRidwan(data);
-                        break;
-                    }
-                } else { // data sudah ada
-                    break;
+            if (data < current.data) {
+                if (current.left != null) {
+                    add(data, current.left);
+                } else {
+                    current.left = new NodeRidwan(data);
                 }
+            } else if (data > current.data) {
+                if (current.right != null) {
+                    add(data, current.right);
+                } else {
+                    current.right = new NodeRidwan(data);
+                }
+            } else {
+                System.out.println("Data sudah ada");
             }
         }
     }
+
+//    void add(int data) {
+//        if (isEmpty()) {
+//            root = new NodeRidwan(data);
+//        } else {
+//            NodeRidwan current = root;
+//            while (true) {
+//                if (data < current.data) {
+//                    if (current.left != null) {
+//                        current = current.left;
+//                    } else {
+//                        current.left = new NodeRidwan(data);
+//                        break;
+//                    }
+//                } else if (data > current.data) {
+//                    if (current.right != null) {
+//                        current = current.right;
+//                    } else {
+//                        current.right = new NodeRidwan(data);
+//                        break;
+//                    }
+//                } else { // data sudah ada
+//                    break;
+//                }
+//            }
+//        }
+//    }
 
     boolean find(int data) {
         boolean hasil = false;
@@ -162,6 +183,62 @@ public class BinaryTreeRidwan {
                   successor.left = current.left;
               }
           }
+        }
+    }
+
+    int findMax(NodeRidwan node) {
+        if (node == null) {
+            return Integer.MIN_VALUE;
+        }
+        int max = node.data;
+        int left = findMax(node.left);
+        int right = findMax(node.right);
+
+        if (left > max)
+            max = left;
+        if (right > max)
+            max = right;
+        return max;
+    }
+
+    int[] findMinMax() {
+        return new int[] {findMin(root), findMax(root)};
+    }
+
+    int findMin(NodeRidwan node) {
+        if (node == null) {
+            return Integer.MAX_VALUE;
+        }
+        int min = node.data;
+        int left = findMin(node.left);
+        int right = findMin(node.right);
+
+        if (left < min)
+            min = left;
+        if (right < min)
+            min = right;
+        return min;
+    }
+
+    void printLeaf(NodeRidwan node) {
+        if (node == null) {
+            return;
+        }
+        if (node.left == null && node.right == null) {
+            System.out.print(node.data + ", ");
+        }
+        printLeaf(node.left);
+        printLeaf(node.right);
+    }
+
+    int countLeaf(NodeRidwan node) {
+        if (node == null) {
+            return 0;
+        }
+        if (node.left == null && node.right == null) {
+            return 1;
+        } else {
+            return countLeaf(node.left) + countLeaf(node.right);
         }
     }
 }

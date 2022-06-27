@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b572077d-41ba-4cd1-a24d-e287df630839" name="Changes" comment="double linked list final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLMainRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLMainRidwan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLRidwan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlists/Soal2DLLRidwan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +30,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Kuliah/Semester 2/Praktikum Algoritma Dan Struktur Data/Pertemuan_11/StrukturData"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Kuliah/Semester 2/Praktikum Algoritma Dan Struktur Data/Pertemuan_12/Double_linked_list&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Soal1DLLMainRidwan">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DoubleLinkedListsMainRidwan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doublelinkedlists.DoubleLinkedListsMainRidwan" />
       <module name="Double_linked_list" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="doublelinkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matematika.Main" />
+      <module name="Double_linked_list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matematika.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Soal1DLLMainRidwan" />
         <item itemvalue="Application.Soal2DLLMainRidwan" />
         <item itemvalue="Application.DoubleLinkedListsMainRidwan" />
@@ -95,6 +111,10 @@
       <workItem from="1652833554926" duration="319000" />
       <workItem from="1652915283634" duration="14670000" />
       <workItem from="1653697358813" duration="2349000" />
+      <workItem from="1654301683429" duration="7188000" />
+      <workItem from="1654392748498" duration="4129000" />
+      <workItem from="1654605001540" duration="77000" />
+      <workItem from="1654605280209" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="double linked list">
       <created>1652833629131</created>

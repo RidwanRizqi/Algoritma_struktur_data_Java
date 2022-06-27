@@ -166,7 +166,7 @@ public class Soal2DLLRidwan {
         }
     }
 
-    public void sortDescRating() {
+    public void sortbyNama() {
         Soal2NodeRidwan current, index;
         Soal2DataFilm tmp;
         if (isEmpty()) {
